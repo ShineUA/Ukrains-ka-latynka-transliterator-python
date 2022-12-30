@@ -17,4 +17,6 @@ for output in text:
                 transliteration = transliteration + dict.get(output)
         if spec == 1:
             spec = 3
+    else:
+         transliteration = transliteration + output
 print("Vyhid: " + transliteration)
